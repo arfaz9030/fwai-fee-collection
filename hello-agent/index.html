@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1648D8">
+  <title>Hello Agent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "DM Sans", sans-serif;
+      background: #1648d8;
+      color: #f7f4ec;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 96px 24px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      max-width: 12ch;
+      margin: 0;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(2.5rem, 6vw + 1rem, 6rem);
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -0.045em;
+      text-align: center;
+      text-wrap: balance;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding-block: 56px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>My agent works</h1>
+  </main>
+</body>
+</html>
